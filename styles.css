@@ -96,3 +96,19 @@ body{
     margin-top: 85px;
 
 }
+.peru{
+    margin-left: 10px;
+    height: 200px;
+    width: 330px;
+    background-color: rgb(170,40,40);
+    display: inline-block;
+    position: relative;
+}
+
+.peru > .middle_white{
+    height: 200px;
+    width: 110px;
+    background-color: white;
+    margin-left: 110px;
+
+}
