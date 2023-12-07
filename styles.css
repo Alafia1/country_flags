@@ -17,6 +17,7 @@ body{
     border: 0.1px solid rgb(218, 207, 207);
     position: relative;
     display: inline-block;
+    margin-right: 10px;
 }
 
 .nigeria > .white{
@@ -28,7 +29,7 @@ body{
 }
 
 .palau{
-    margin-left: 10px;
+    margin-right: 10px;
     height: 200px;
     width: 330px;
     background-color: #3b99dd;
@@ -47,7 +48,7 @@ body{
 }
 
 .japan{
-    margin-left: 10px;
+    margin-right: 10px;
     height: 200px;
     width: 330px;
     background-color: white;
@@ -66,7 +67,7 @@ body{
 }
 
 .ukraine{
-    margin-left: 10px;
+    margin-right: 10px;
     height: 200px;
     width: 330px;
     background-color: blue;
@@ -84,7 +85,7 @@ body{
 }
 
 .latvia{
-    margin-left: 10px;
+    margin-right: 10px;
     height: 200px;
     width: 330px;
     background-color: #6B240C;
@@ -101,7 +102,7 @@ body{
 
 }
 .peru{
-    margin-left: 10px;
+    margin-right: 10px;
     height: 200px;
     width: 330px;
     background-color: rgb(170,40,40);
@@ -119,7 +120,7 @@ body{
 }
 
 .poland{
-    margin-left: 10px;
+    margin-right: 10px;
     height: 200px;
     width: 330px;
     background-color: rgb(252, 250, 250);
@@ -137,7 +138,7 @@ body{
 }
 
 .monaco{
-    margin-left: 10px;
+    margin-right: 10px;
     height: 200px;
     width: 250px;
     background-color: rgb(150,40,40);
@@ -154,7 +155,7 @@ body{
 }
 
 .indonesia{
-    margin-left: 10px;
+    margin-right: 10px;
     height: 200px;
     width: 330px;
     background-color: rgb(160,40,40);
@@ -171,7 +172,7 @@ body{
 }
 
 .austria{
-    margin-left: 10px;
+    margin-right: 10px;
     height: 200px;
     width: 330px;
     background-color: rgb(220,63,62);
@@ -188,7 +189,7 @@ body{
 }
 
 .bangladesh{
-    margin-left: 10px;
+    margin-right: 10px;
     height: 200px;
     width: 330px;
     background-color: rgb(0,65,50);
