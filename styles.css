@@ -41,5 +41,24 @@ body{
     background-color: darkgoldenrod;
     border-radius: 50%;
     margin-top: 35px;
-    margin-left: 60px
+    margin-left: 60px;
+}
+
+.japan{
+    margin-left: 10px;
+    height: 200px;
+    width: 330px;
+    background-color: white;
+    border: 1px solid gray;
+    display: inline-block;
+    position: relative;
+}
+
+.japan > .circle{
+    height: 130px;
+    width: 130px;
+    background-color: darkred;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-left: 100px;
 }
