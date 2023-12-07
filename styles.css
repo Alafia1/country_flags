@@ -49,7 +49,7 @@ body{
     height: 200px;
     width: 330px;
     background-color: white;
-    border: 1px solid gray;
+    border: 0.1px solid gray;
     display: inline-block;
     position: relative;
 }
@@ -61,4 +61,38 @@ body{
     border-radius: 50%;
     margin-top: 35px;
     margin-left: 100px;
+}
+
+.ukraine{
+    margin-left: 10px;
+    height: 200px;
+    width: 330px;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+}
+
+.ukraine > .yellow{
+    height: 100px;
+    width: 330px;
+    background-color: darkgoldenrod;
+    margin-top: 100px;
+
+}
+
+.latvia{
+    margin-left: 10px;
+    height: 200px;
+    width: 330px;
+    background-color: #6B240C;
+    display: inline-block;
+    position: relative;
+}
+
+.latvia > .middle_white{
+    height: 30px;
+    width: 330px;
+    background-color: white;
+    margin-top: 85px;
+
 }
