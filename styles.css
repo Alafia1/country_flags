@@ -206,3 +206,147 @@ body{
     margin-top: 35px;
     margin-left: 60px;
 }
+
+.horizontal-rect{
+    width: 100%;
+    height: 33%;
+}
+.vert-rect{
+    width: 25%;
+    height: 100%;
+}
+.bahamas{
+    margin-right: 10px;
+    height: 200px;
+    width: 330px;
+    background-color: #2991ac;
+    border: 0.1px solid rgb(218, 207, 207);
+    display: inline-block;
+    position: relative;
+}
+
+.bahamas > .horizontal-rect{
+    background-color: rgb(196, 155, 51);
+    margin-top: 67px;
+}
+.bahamas > .left-triangle{
+    width: 0;
+  height: 0;
+  border-left: 130px solid black;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  position: absolute;
+  top: 0px;
+}
+
+.bahrain{
+    margin-right: 10px;
+    height: 200px;
+    width: 330px;
+    background-color: rgb(160,40,40);
+    border: 0.1px solid rgb(218, 207, 207);
+    display: inline-block;
+    position: relative;
+}
+
+.bahrain > .white-rect{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    
+}
+
+.bahrain > .triangle-one{
+    width: 0;
+    height: 0;
+    border-left: 30px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 82px;
+}
+.bahrain > .triangle-two{
+    width: 0;
+    height: 0;
+    border-left: 30px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 40px;
+    left: 82px;
+}
+.bahrain > .triangle-three{
+    width: 0;
+    height: 0;
+    border-left: 30px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 80px;
+    left: 82px;
+}
+.bahrain > .triangle-four{
+    width: 0;
+    height: 0;
+    border-left: 30px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 120px;
+    left: 82px;
+}
+.bahrain > .triangle-five{
+    width: 0;
+    height: 0;
+    border-left: 30px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 160px;
+    left: 82px;
+}
+
+.finland{
+    margin-right: 10px;
+    height: 200px;
+    width: 330px;
+    background-color: rgb(252, 252, 252);
+    border: 0.1px solid rgb(218, 207, 207);
+    display: inline-block;
+    position: relative;
+}
+.finland > .horizontal-rect{
+    background-color: #1c509c;
+    margin-top: 67px;
+}
+.finland > .vert-rect{
+    background-color: #1c509c;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    margin-left: 75px;
+}
+
+.sweden{
+    margin-right: 10px;
+    height: 200px;
+    width: 330px;
+    background-color: rgb(41, 76, 121);
+    border: 0.1px solid rgb(218, 207, 207);
+    display: inline-block;
+    position: relative;
+}
+.sweden > .horizontal-rect{
+    background-color: #a1941e;
+    margin-top: 85px;
+    height: 17%;
+}
+.sweden > .vert-rect{
+    background-color: #a1941e;
+    width: 10%;
+    position: absolute;
+    top: 0;
+    margin-left: 85px;
+}
+
