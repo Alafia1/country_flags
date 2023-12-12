@@ -482,3 +482,32 @@ body{
     right: 0;
 }
 
+.thailand{
+    margin-right: 10px;
+    height: 200px;
+    width: 330px;
+    background-color: rgb(250, 251, 253);
+    border: 0.1px solid rgb(218, 207, 207);
+    display: inline-block;
+    position: relative;
+}
+.thailand > .red-rect{
+    background-color: #c03636;
+    height: 33px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.thailand > .one{
+    top: 0;
+}
+.thailand > .two{
+    top: 167px;
+}
+.thailand > .blue-rect{
+    background-color: #0e1958;
+    height: 67px;
+    width: 100%;
+    position: absolute;
+    top: 66px;
+}
