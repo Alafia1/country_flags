@@ -511,3 +511,36 @@ body{
     position: absolute;
     top: 66px;
 }
+
+.niger{
+    margin-right: 10px;
+    height: 200px;
+    width: 330px;
+    background-color: rgb(250, 251, 253);
+    border: 0.1px solid rgb(218, 207, 207);
+    display: inline-block;
+    position: relative;
+}
+.niger > .rect{
+    height: 66px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.niger > .orange{
+    background-color: #b35632;
+}
+.niger > .green{
+    top: 133px;
+    background-color: #41ca8a;
+}
+.niger > .circle{
+    background-color: #b35632;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 70px;
+    border-radius: 50%;
+    left: 135px;
+    z-index: 1;
+}
