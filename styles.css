@@ -544,3 +544,32 @@ body{
     left: 135px;
     z-index: 1;
 }
+
+.botswana{
+    margin-right: 10px;
+    height: 200px;
+    width: 330px;
+    background-color: rgb(89, 162, 204);
+    border: 0.1px solid rgb(218, 207, 207);
+    display: inline-block;
+    position: relative;
+}
+.botswana > .rect{
+    width: 100%;
+    position: absolute;
+}
+.botswana > .one{
+    background-color: #ffffff;
+    height: 5%;
+    top: 33%;
+}
+.botswana > .two{
+    background-color: #080808;
+    height: 23%;
+    top: 38%;
+}
+.botswana > .three{
+    background-color: #ffffff;
+    height: 5%;
+    top: 61%;
+}
